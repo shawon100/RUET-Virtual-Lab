@@ -1,0 +1,535 @@
+.main
+{
+
+	max-width:1200px;
+	max-height: auto;
+    font-family: cursive;
+    margin:0 auto;
+    border:1px solid gray;
+    position:relative;
+    background-color:white;
+}
+
+
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    /* The duration of the animation */
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible;
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+.logo-small {
+    color: #00593D;
+    font-size: 50px;
+}
+
+.logo {
+    color: #00593D;
+    font-size: 200px;
+}
+.ht
+{
+    color: white;
+    padding-left:10px;
+}
+.templete{margin:0 auto;}
+.clear{overflow:hidden; margin:0px;padding:0px;}
+.header
+{
+
+    max-height: 320px;
+    max-width: 1200px;
+
+}
+.hbar
+{
+	width: 1200px;
+	background-color: black;
+	border-top:5px solid orange;
+    height:40px;
+
+
+}
+.hbar ul
+{
+    list-style-type: none;
+    display:inline-block;
+    margin:0;
+    padding:0;
+    
+   
+
+
+
+}
+.hbar li
+{
+
+    float:left;
+    border-right:2px solid cyan;
+    
+
+}
+.hbar a
+{
+    display:block;
+	text-decoration: none;
+	color:white;
+    padding:8px;
+
+
+}
+.hbar li a:hover
+{
+	background-color: orange;
+	color:white;
+}
+.sname
+{
+    max-width:1380px;
+    height: 110px;
+    border:1px solid gray;
+    padding-left:25px;
+   
+
+}
+.menu
+{
+    background-color: black;
+    border-bottom: 5px solid orange;
+    color: white;
+    text-align: center;
+
+
+
+}
+.hbar input[type="text"]
+{
+     
+     width:290px;
+     margin-top:8px;
+     margin-left:8px;
+     margin-bottom: 8px;
+ 
+     
+
+}
+
+.hbar input[type="submit"] 
+{
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    border: none;
+    height: 23px;
+    margin-right: 8px;
+
+
+
+}
+.hbar input[type="submit"]:hover
+{
+    background-color: green;
+    
+}
+
+
+ .mbar
+{
+    max-width: 1400px;
+    background-color: black;
+    border-bottom:5px solid orange;
+    height:40px;
+
+
+}
+.mbar ul
+{
+    list-style-type: none;
+    display:inline-block;
+    margin:0;
+    padding:0;
+    
+   
+
+
+
+}
+.mbar li
+{
+
+    float:left;
+    border-right:2px solid cyan;
+    
+
+}
+.mbar a
+{
+    display:block;
+    text-decoration: none;
+    color:white;
+    padding:8px;
+
+
+}
+.mbar li a:hover
+{
+    background-color: orange;
+    color:white;
+}
+.content
+{
+
+    width: 1195px;
+    height: 820px;
+    border:3px groove #E9E9E9;
+    
+}
+.postfield
+{
+    width:840px;
+    height:800px;
+    float:left;
+    padding-top: 20px;
+    padding-left: 30px;
+   
+
+}
+.post
+{
+    width:795px;
+    height:110px;
+    border:3px groove #E9E9E9;   
+    padding-top:10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+   
+
+}
+.post:hover
+{
+    background-color: #F6F6F6;
+}
+.post img
+{
+    float: left;
+    padding-right: 5px;
+
+}
+
+.sidebar
+{
+     width:300px;
+     height: 510px;
+     border-top:1px solid black;
+     border-right: 1px solid black;
+     border-left:1px solid black;
+     border-bottom:5px solid orange;
+     float:left;
+     margin-top:20px;
+     box-shadow: 2px 2px 2px 2px gray;
+    
+
+
+}
+.bmenu
+{
+    border-top:1px solid gray;
+    padding:5px;
+
+}
+.bmenu a
+{
+    text-decoration: none;
+    padding:5px;
+}
+.bmenu:hover
+{
+    background-color: #EEEEEE;
+}
+.bmenu a:hover
+{
+    color:red;
+}
+.stat
+{
+    height: 225px;
+    width: 300px;
+    border-top:1px solid black;
+    border-right: 1px solid black;
+    border-left:1px solid black;
+    border-bottom:5px solid orange;
+    float:left;
+    margin-top:20px;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+.footer
+{
+    height: 100px;
+    width: 1200px;
+    background-color: black;
+    border-top: 5px solid orange;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    float: left;
+
+}
+@media only screen and (max-width:900px) and (min-width:600px)
+{
+.header
+{
+
+    max-height: 320px;
+    max-width: 600px;
+
+}
+.hbar
+{
+    width: 600px;
+    background-color: black;
+    border-top:5px solid orange;
+    height:40px;
+    overflow: hidden;
+
+
+}
+.postfield
+{
+    width:590px;
+    height:960px;
+    float:left;
+    padding-top: 20px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+  
+
+}
+.post
+{
+    width:540px;
+    height:150px;
+    border:3px groove #E9E9E9;   
+    padding-top:10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+   
+
+}
+.footer
+{
+    height: 120px;
+    width: 600px;
+    background-color: black;
+    border-top: 5px solid orange;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    float:left;
+    margin-top:20px;
+     border-bottom: 5px solid orange;
+
+}
+.content
+{
+
+    width: 595px;
+    height: 1000px;
+    border:3px groove #E9E9E9;
+    
+}
+.sidebar
+{
+     width:595px;
+     height: 510px;
+     border-top:1px solid black;
+     border-right: 1px solid black;
+     border-left:1px solid black;
+     border-bottom:5px solid orange;
+     float:left;
+     margin-top:20px;
+     box-shadow: 2px 2px 2px 2px gray;
+    
+
+
+}
+.stat
+{
+    height: 220px;
+    width: 595px;
+    border-top:1px solid black;
+    border-right: 1px solid black;
+    border-left:1px solid black;
+    border-bottom:5px solid orange;
+    float:left;
+    margin-top:20px;
+    padding-bottom:5px; 
+    box-shadow: 2px 2px 2px 2px gray;
+}
+}
+
+
+
+@media only screen and (max-width:600px) and (min-width:400px)
+{
+.header
+{
+
+    max-height:320px;
+    max-width: 400px;
+
+}
+.hbar
+{
+    width:400px;
+    background-color: black;
+    border-top:5px solid orange;
+    height:40px;
+    overflow: hidden;
+
+
+}
+ .mbar
+{
+    max-width: 1400px;
+    background-color: black;
+    border-bottom:5px solid orange;
+    height:40px;
+    overflow: hidden;
+
+
+}
+ .mbar
+{
+    max-width:400px;
+    background-color: black;
+    border-bottom:5px solid orange;
+    height:40px;
+    overflow: hidden;
+
+
+
+}
+.postfield
+{
+    width:390px;
+    height:960px;
+    float:left;
+    padding-top: 20px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+  
+
+}
+.post
+{
+    width:340px;
+    height:150px;
+    border:3px groove #E9E9E9;   
+    padding-top:10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+   
+
+}
+.footer
+{
+    height: 120px;
+    width: 400px;
+    background-color: black;
+    border-top: 5px solid orange;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    float:left;
+    margin-top:20px;
+     border-bottom: 5px solid orange;
+
+}
+.content
+{
+
+    width: 395px;
+    height: 1000px;
+    border:3px groove #E9E9E9;
+    
+}
+.sidebar
+{
+     width:395px;
+     height: 510px;
+     border-top:1px solid black;
+     border-right: 1px solid black;
+     border-left:1px solid black;
+     border-bottom:5px solid orange;
+     float:left;
+     margin-top:20px;
+     box-shadow: 2px 2px 2px 2px gray;
+    
+
+
+}
+.stat
+{
+    height: 220px;
+    width: 395px;
+    border-top:1px solid black;
+    border-right: 1px solid black;
+    border-left:1px solid black;
+    border-bottom:5px solid orange;
+    float:left;
+    margin-top:20px;
+    padding-bottom:5px; 
+    box-shadow: 2px 2px 2px 2px gray;
+}
+.hbar input[type="text"]
+{
+     
+     width:100px;
+     margin-top:8px;
+     margin-left:210px;
+    
+
+}
+
+.hbar input[type="submit"] 
+{
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    border: none;
+    height: 23px;
+    margin-right: 8px;
+
+
+
+}
+}
+
+
