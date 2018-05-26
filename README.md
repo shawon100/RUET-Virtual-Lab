@@ -38,4 +38,8 @@ C:\Program Files (x86)\Java\jdk1.8.0_112\bin
 ```
 At Last Replace Path in putenv() function by your path (java.php file)
 ```
+Database Setup
+```
+Create vlabreg and vlabproblem database and import from db folder
+```
 
